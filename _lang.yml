@@ -1,0 +1,30 @@
+games:
+  - langs:
+      - en-us
+      - en-gb
+    defaults: true # for things that don't exist in the second entry (the one with en-au, en-gb), default to the ones in this list
+    directory: en
+    fh:
+      title: Frosthaven
+      directory: frosty # optional, only if it doesn't match the "key", see below for default examples
+    bnb:
+      title: Buttons & Bugs
+    jotl:
+      title: Jaws of the Lion
+    fc:
+      title: Forgotten Circles
+    gh2:
+      title: Gloomhaven 2nd Edition
+      directory: gh
+    fw:
+      title: Forge War
+    fog:
+      title: Founders of Gloomhaven
+  - langs:
+      - en-au
+      - en-gb
+    directory: en-wacky
+    fw:
+      title: Forge War
+    fog:
+      title: Founders of Gloomhaven
