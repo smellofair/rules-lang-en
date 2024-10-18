@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do the Thing
-        uses: cephalofair/rules-actions
+        uses: cephalofair/rules-actions@v0.1
         with:
           hub-repo: cephalofair/rules-hub
 
