@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Trigger Hub Update
         uses: cephalofair/rules-actions/trigger-hub@v0.2
+        with:
+          pat: ${{ secrets.PAT }}
