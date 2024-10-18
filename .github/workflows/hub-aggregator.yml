@@ -1,0 +1,14 @@
+name: Hub Aggregator
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Aggregate-Language-Files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do the Thing
+        uses: cephalofair/rules-actions
+        with:
+          hub-repo: cephalofair/rules-hub
+
