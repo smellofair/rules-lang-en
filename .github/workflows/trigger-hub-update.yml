@@ -1,0 +1,11 @@
+name: Trigger Hub Update
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Aggregate-Language-Files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Hub Update
+        uses: cephalofair/rules-actions/trigger-hub@v0.2
