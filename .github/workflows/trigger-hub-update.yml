@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Hub Update
-        uses: cephalofair/rules-actions/trigger-hub@v0.2
+        uses: ${{ vars.ACTIONS_REPO }}/trigger-hub@v0.3
         with:
           pat: ${{ secrets.PAT }}
