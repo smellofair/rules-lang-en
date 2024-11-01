@@ -5,7 +5,7 @@ translations:
     games:
       fh:
         local-name: Frosthaven # required
-        directory: fh # defaults to key
+        directory: frosty # defaults to key (fh)
         rules: rules.md # defaults to `rules.md`
         faq: faq.md # defaults to `faq.md`
       bnb: Buttons & Bugs # shorthand
@@ -26,3 +26,7 @@ translations:
         # rules: rules.md
         # faq: faq.md
       fog: ƒøündêrß øf ©løømh˚vén
+  - name: Portuguese
+    language-code: pt
+    games:
+      fh: frosty boy
