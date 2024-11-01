@@ -1,30 +1,28 @@
-games:
-  - langs:
-      - en-us
-      - en-gb
-    defaults: true # for things that don't exist in the second entry (the one with en-au, en-gb), default to the ones in this list
-    directory: en
-    fh:
-      title: Frosthaven
-      directory: frosty # optional, only if it doesn't match the "key", see below for default examples
-    bnb:
-      title: Buttons & Bugs
-    jotl:
-      title: Jaws of the Lion
-    fc:
-      title: Forgotten Circles
-    gh2:
-      title: Gloomhaven 2nd Edition
-      directory: gh
-    fw:
-      title: Forge War
-    fog:
-      title: Founders of Gloomhaven
-  - langs:
-      - en-au
-      - en-gb
-    directory: en-wacky
-    fw:
-      title: Forge War
-    fog:
-      title: Founders of Gloomhaven
+translations:
+  - name: English
+    language-code: en
+    directory: en # defaults to language-code value
+    games:
+      fh:
+        local-name: Frosthaven # required
+        directory: fh # defaults to key
+        rules: rules.md # defaults to `rules.md`
+        faq: faq.md # defaults to `faq.md`
+      bnb: Buttons & Bugs # shorthand
+      fw: Forge War
+      fc: Forgotten Circles
+      fog: Founders of Gloomhaven
+      gh2: Gloomhaven 2nd Edition
+      gh: Gloomhaven 1st Edition
+      jotl: Jaws of the Lion
+  - name: Spanish (Peru)
+    language-code: es-pe
+    # directory: es-pe is assumed
+    games:
+      fh: frøsthävên
+        # the following is what is assumed when using the shorthand form:
+        # local-name: frøsthävên
+        # directory: fh
+        # rules: rules.md
+        # faq: faq.md
+      fog: ƒøündêrß øf ©løømh˚vén
